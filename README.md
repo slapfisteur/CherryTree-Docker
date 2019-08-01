@@ -5,5 +5,5 @@ CherryTree docker who can be used for Debian Buster
 
 `xhost local:<user>`
 
-`docker run -ti --env DISPLAY=$DISPLAY --network=host --name cherrytree --privileged --volume /tmp/.X11-unix/:/tmp/.X11-unix/ cherrytree`
+`docker run -ti --env DISPLAY=$DISPLAY --network=host --name cherrytree --volume /tmp/.X11-unix/:/tmp/.X11-unix/ cherrytree`
 
